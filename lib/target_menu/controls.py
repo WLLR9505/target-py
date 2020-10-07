@@ -1,5 +1,5 @@
 class Controls:
-  def __init__(aElect='e', aBack='q', aUp='w', aDown='s', aRight='d', aLeft='a')
+  def __init__(self, aElect='e', aBack='q', aUp='w', aDown='s', aRight='d', aLeft='a'):
       self.elect = aElect
       self.back = aBack
       self.up = aUp
@@ -10,36 +10,36 @@ class Controls:
       self.pos1 = 0
       self.pos2 = 0
 
-  def resetPos
+  def resetPos(self):
       self.pos1 = 0
       self.pos2 = 0
 
-  def getPos1
+  def getPos1(self):
     return self.pos1
   
-  def getPos2
+  def getPos2(self):
     return self.pos2
 
-  def getUp
+  def getUp(self):
     return self.up
 
-  def getDown
+  def getDown(self):
     return self.down
 
-  def getLeft
+  def getLeft(self):
     return self.left
 
-  def getRight
+  def getRight(self):
     return self.right
 
-  def getElect
+  def getElect(self):
     return self.elect
   
-  def getBack
+  def getBack(self):
     return self.back
 
-  def setPos1(p)
+  def setPos1(self, p):
     self.pos1 = p
   
-  def setPos2(p)
+  def setPos2(self, p):
     self.pos2 = p

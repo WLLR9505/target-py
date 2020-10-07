@@ -1,6 +1,6 @@
 from lib.target_menu.colors import palette
 
-def update(menu, control, cl, palette):
+def update(menu, control, cl):
     i = 0
     for i in range(len(menu)):
         if control["pos1"] == i:
